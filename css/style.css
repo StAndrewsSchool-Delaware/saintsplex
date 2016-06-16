@@ -1,0 +1,239 @@
+body{
+    min-height: 420px;
+}
+
+body, .ui-btn, .ui-overlay-a a, h1 {
+    font-family:"Helvetica Neue", Arial, sans-serif;
+    font-weight:100;
+    -webkit-font-smoothing: antialiased;
+}
+
+.header-icon {
+    border: none;
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
+.ui-bar-a, .ui-overlay-a .ui-bar-inherit, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+    background: #f1f1f1;
+    border-color: #ddd;
+    color: #111;
+    text-shadow: 0 1px 0 #eee;
+    font-weight: 700;
+}
+.ui-overlay-a .ui-btn, .ui-page-theme-a .ui-btn, .ui-overlay-a .ui-btn:hover, .ui-page-theme-a .ui-btn:hover {
+    background-color: #fff;
+}
+.ui-input-search {
+    margin: 0px;
+    border-radius: 0.3em;
+}
+
+.ui-icon-alt.ui-icon-carat-r:after, .ui-icon-alt .ui-icon-carat-r:after {
+    background-image: url(/contacts/content/images/forward.png);
+    background-color: transparent;
+}
+
+h1{
+    color: red;
+    font-size: 2.4em !important;
+}
+
+div.loader{
+    color: #aaa;
+    padding-top: 55px;
+    text-align: center;
+}
+
+#main-contact-list{
+    display: none;
+}
+
+#contact-list {
+  color: red;
+}
+
+#details, #student-details span {
+    color: gray;
+    font-size: 1.2em;
+}
+
+div.name, div.student-name {
+    font-size: 1.2em;
+    color: red;
+    padding-bottom: 10px;
+    
+}
+
+div.dayPhone, div.cellPhone, div.eveningPhone, div.student-cellphone {
+    padding-bottom: 10px;
+    font-size: .9em;
+    color: rgb(241, 69, 69);   
+}
+
+div.position, div.student-form {
+    padding-bottom: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: gray;
+}
+
+
+div.picture {
+    margin-top: -250px;
+    float:right;
+    width: 150px;
+    height: 150px;  
+}
+
+div.student-picture {
+    margin-top: -140px;
+    float:right;
+    width: 150px;
+    height: 150px;
+}
+
+#code, .codeForm {
+
+  width: 237px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.profilePic {
+  
+  width: 150px;
+  height: 150px;
+  margin: 1em auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  border: 5px solid #eee;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
+}
+
+#backbutton, #student-backbutton {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+ .ui-li-divider, .ui-bar-b {
+  background-image: linear-gradient( #965252,#FC0A0A );
+}
+
+.ui-btn-inner {
+  font-size: 20px;
+}
+
+.ui-link {
+  font-weight: bold;
+  text-decoration: none;
+}
+.label,
+.badge {
+  float: right;
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: 11.844px;
+  font-weight: bold;
+  line-height: 14px;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #999999;
+}
+
+.label {
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+.badge {
+  padding-right: 9px;
+  padding-left: 9px;
+  -webkit-border-radius: 9px;
+     -moz-border-radius: 9px;
+          border-radius: 9px;
+}
+
+.label:empty,
+.badge:empty {
+  display: none;
+}
+
+a.label:hover,
+a.label:focus,
+a.badge:hover,
+a.badge:focus {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.label-important,
+.badge-important {
+  background-color: #b94a48;
+}
+
+.label-important[href],
+.badge-important[href] {
+  background-color: #953b39;
+}
+
+.label-warning,
+.badge-warning {
+  background-color: #f89406;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+  background-color: #c67605;
+}
+
+.label-success,
+.badge-success {
+  background-color: #468847;
+}
+
+.label-success[href],
+.badge-success[href] {
+  background-color: #356635;
+}
+
+.label-info,
+.badge-info {
+  background-color: #3a87ad;
+}
+
+.label-info[href],
+.badge-info[href] {
+  background-color: #2d6987;
+}
+
+.label-inverse,
+.badge-inverse {
+  background-color: #333333;
+}
+
+.label-inverse[href],
+.badge-inverse[href] {
+  background-color: #1a1a1a;
+}
+
+.btn .label,
+.btn .badge {
+  position: relative;
+  top: -1px;
+}
+
+.btn-mini .label,
+.btn-mini .badge {
+  top: 0;
+}
+
+
