@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	var redirect = function() {
-		var redirect = window.location.href+"contacts.html";
+		var redirect = window.location.href+"/contacts.html";
 		window.location.replace(redirect);
 	}
 
@@ -10,7 +10,7 @@ $(document).ready(function() {
 		event.preventDefault();
 		var pass = event.target[0].value; // Gets pass from the form
 
-		Parse.User.logIn('username', pass, {
+		Parse.User.logIn('sas', pass, {
 			success: function(results) {
 				redirect();
 			},
